@@ -1,0 +1,6 @@
+.title-sti {
+  font-size: var(--spacing-biggest);
+  color: var(--color-first);
+  font-weight: 800;
+  font-family: 'Oswald', sans-serif;
+}
