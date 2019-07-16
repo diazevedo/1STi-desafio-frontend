@@ -1,0 +1,25 @@
+.section-search-sti {
+  height: 100px;
+  /* background-color: blue; */
+  text-align: center;
+}
+
+.input-text-tsi {
+  /* border: black 10px solid; */
+  border-left: #e6a26a 0.5px solid; 
+  border-top: #e6a26a 0.5px solid;
+  border-right: #e97e00 0.5px solid; 
+  border-bottom: #e97e00 0.5px solid;
+  width: 360px;
+  height: 46px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px;
+}
+
+.input-text-tsi::placeholder {
+  color: #959595;
+  font-weight: 100;
+  font-family: 'Oswald', serif;
+  font-size: var(--size-small);
+}

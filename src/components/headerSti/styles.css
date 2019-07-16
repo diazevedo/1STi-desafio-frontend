@@ -1,0 +1,12 @@
+.header-sti {
+  text-align: center;
+  height: 150px;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.header-sti .title-sti {
+  height: 60px;
+  width: 420px;
+  margin: 0 auto;
+}
