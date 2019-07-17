@@ -5,6 +5,12 @@
 /.pnp
 .pnp.js
 
+# vscode settings
+/.vscode
+
+# react app files
+./React App_files
+
 # testing
 /coverage
 
