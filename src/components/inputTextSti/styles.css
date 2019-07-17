@@ -1,16 +1,5 @@
 .input-text-sti {
   border: hsl(32, 100%, 46%) 1px solid;
-  font-family: 'Noto Sans JP', serif;
-  font-size: var(--size-mid);
-  transition: .25s ease-in-out;
-  color: #737373;
-  padding-left: var(--spacing-mid);
-}
-
-.input-text-sti::placeholder {
-  color: #737373;
-  font-weight: 300;
-  font-family: 'Noto Sans JP', serif;
 }
 
 .input-text-sti:focus {

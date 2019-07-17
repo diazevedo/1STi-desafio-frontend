@@ -1,24 +1,26 @@
 .form-city-sti {
-  height: 200px;
+  height: 60px;
   display: flex;
   justify-content: center;
+  margin-top: 5px;
 }
 
 .form-city-sti .container-input {
-  width: 380px;
-  height: 50px;
+  width: 490px;
+  height: 100%;
   position: relative;
 }
 
 .form-city-sti .input-text-sti {
   width: 100%;
-  height: 50px;
+  height: 100%;
   box-sizing: border-box;
-}
-
-.form-city-sti .input-text-sti::placeholder {
-  font-size: var(--size-mid);
-  opacity: 1;
+  font-weight: 100;
+  font-family: 'Noto Sans JP', serif;
+  font-size: var(--size-mid-big);
+  transition: .25s ease-in-out;
+  color: #737373;
+  padding-left: var(--spacing-mid);
 }
 
 .form-city-sti .button-submit-sti {

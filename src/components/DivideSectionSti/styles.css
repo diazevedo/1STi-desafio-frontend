@@ -1,0 +1,5 @@
+.section-division-sti {
+  color: var(--color-first);
+  width: 500px;
+  border: var(--color-first) .5px solid;
+}
