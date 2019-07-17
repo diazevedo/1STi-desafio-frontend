@@ -5,7 +5,7 @@ const InputTextSti = () => (
   <input 
     type="text"
     className="input-text-tsi"
-    placeholder="Enter your city name here"
+    placeholder="Insira o nome da cidade"
   />
 )
 

@@ -1,5 +1,5 @@
 import React from "react"
-import TitleSti from "../titleSti"
+import TitleSti from "../TitleSti"
 import "./styles.css"
 
 const HeaderTsi = () => (

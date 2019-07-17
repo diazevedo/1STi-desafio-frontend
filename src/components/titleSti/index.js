@@ -3,7 +3,7 @@ import "./styles.css"
 
 const TitleSti = () => (
   <h1 className='title-sti'>
-    Weather Forecast
+    Previsão do tempo
   </h1>
 )
 
