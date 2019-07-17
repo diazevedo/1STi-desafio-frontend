@@ -1,5 +1,6 @@
 :root {
-  --spacing-smallest: 10px;
+  --spacing-smallest: 5px;
+  --spacing-smaller: 10px;
   --spacing-small: 15px;
   --spacing-mid: 20px;
   --spacing-mid-big: 25px;

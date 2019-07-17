@@ -1,0 +1,8 @@
+.button-submit-sti {
+  background: none;
+  border: none;
+}
+
+.button-submit-sti:hover {
+  cursor: pointer;
+}

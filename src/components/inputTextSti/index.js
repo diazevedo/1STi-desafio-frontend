@@ -1,12 +1,8 @@
 import React from "react"
 import "./styles.css"
 
-const InputTextSti = () => (
-  <input 
-    type="text"
-    className="input-text-tsi"
-    placeholder="Insira o nome da cidade"
-  />
+const InputTextSti = ({ placeholderText = "" }) => (
+  <input type="text" className="input-text-sti" placeholder={placeholderText} />
 )
 
 export default InputTextSti;
