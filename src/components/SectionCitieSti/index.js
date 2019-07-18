@@ -8,7 +8,12 @@ const cities = [
   {
     cityName: 'Rio de Janeiro',
     min: "18°",
-    max: "24°"
+    max: "27°"
+  },
+  {
+    cityName: 'Salvador',
+    min: "23°",
+    max: "37°" 
   },
   {
     cityName: 'São Paulo',
@@ -16,39 +21,34 @@ const cities = [
     max: "22°"
   },
   {
+    cityName: 'Curitiba',
+    min: "5°",
+    max: "14°" 
+  },
+  {
     cityName: 'Belo Horizonte',
     min: "21°",
     max: "32°"
   },
   {
+    cityName: 'Fortaleza',
+    min: "21°",
+    max: "32°" 
+  },
+  {
     cityName: 'Brasília',
+    min: "24°",
+    max: "37°" 
+  },
+  {
+    cityName: 'Manaus',
     min: "24°",
     max: "37°"
   },
   {
     cityName: 'Belém',
     min: "24°",
-    max: "37°"
-  },
-  {
-    cityName: 'Salvador',
-    min: "23°",
-    max: "37°"
-  },
-  {
-    cityName: 'Curitiba',
-    min: "5°",
-    max: "14°"
-  },
-  {
-    cityName: 'Fortaleza',
-    min: "21°",
-    max: "32°"
-  },
-  {
-    cityName: 'Manaus',
-    min: "24°",
-    max: "37°"
+    max: "37°" 
   },
   {
     cityName: 'João Pessoa',
@@ -61,6 +61,15 @@ const SectionCitieSti = () => (
   <section className="section-cities-sti">
     <div className="container">
       <SubtitleSti />
+      <ul className="list-sti"> 
+        <li className="degree-li-sti label">Min</li>
+        <li className="degree-li-sti label">Máx</li>
+      </ul>
+      <ul className="list-sti"> 
+        <li className="degree-li-sti label">Min</li>
+        <li className="degree-li-sti label">Máx</li>
+      </ul>
+      
       {cities.map(({min, max, cityName}) => (
         <ListSti 
           min={min}

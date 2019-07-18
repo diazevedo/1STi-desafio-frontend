@@ -1,16 +1,17 @@
 .section-cities-sti {
   display: flex;
   justify-content: center;
+  margin-top: var(--spacing-mid);
 }
 
 .section-cities-sti .container {
-  width: 430px;
-  height: 300px;
-  border: black 4px solid;
+  width: 450px;
+  height: 250px;
   display: grid;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: 35px var(--size-small) repeat(4, 1fr);
   grid-template-columns: 1fr 1fr;
-  grid-gap: var(--spacing-small);
+  gap: 15px var(--spacing-biggest);
+  position: relative;
 }
 
 .section-cities-sti .subtitle-sti {
@@ -18,8 +19,17 @@
 }
 
 .section-cities-sti .list-sti {
-  margin-top: var(--spacing-mid);
-  font-family: 'Noto Sans JP', sans-serif;
-  font-weight: 500;
-  padding-right: var(--spacing-smaller);
+  font-weight: 700;
+}
+
+.label {
+  font-weight: 100;
+  font-size: var(--size-smallest);
+  color: #585753eb;
+}
+
+.section-cities-sti .list-sti .degree-li-sti {
+  display: inline-block;
+  width: 20px;
+  padding-right: var(--spacing-mid);
 }

@@ -17,7 +17,6 @@
   color: #737373;
   box-sizing: border-box;
   font-weight: 100;
-  font-family: 'Noto Sans JP', serif;
   font-size: var(--size-mid-big);
   transition: .25s ease-in-out;
   padding-left: var(--spacing-mid);
