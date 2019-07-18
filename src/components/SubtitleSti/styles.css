@@ -1,0 +1,6 @@
+.subtitle-sti {
+  font-size: var(--size-bigger);
+  font-weight: 500;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: var(--color-first);
+}
