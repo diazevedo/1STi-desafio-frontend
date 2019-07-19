@@ -1,8 +1,11 @@
-body {
-  height: 100vh;
-  background-image: linear-gradient(to bottom, #ff7f00, #ff8f00, #ff9e00, #ffad00, #ffbb00);
+html {
+  /* height: 100vh; */
+  width: 100vw;
+  background: linear-gradient(to bottom, #ff7f00, #ff8f00, #ff9e00, #ffad00, #ffbb00);
+  background-attachment: fixed;
   font-family: 'Noto Sans', sans-serif;
 }
+
 /*this root cannot be here, it has to be in the index.css of the /components/index.js*/
 #root {
   height: inherit;

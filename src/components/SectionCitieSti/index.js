@@ -57,21 +57,25 @@ const cities = [
   }
 ]
 
+
+var itemKey = 0;
+
 const SectionCitieSti = () => (
   <section className="section-cities-sti">
     <div className="container">
       <SubtitleSti />
-      <ul className="list-sti"> 
+      <ul className="list-sti min-max-li"> 
         <li className="degree-li-sti label">Min</li>
         <li className="degree-li-sti label">Máx</li>
       </ul>
-      <ul className="list-sti"> 
+      <ul className="list-sti min-max-li"> 
         <li className="degree-li-sti label">Min</li>
         <li className="degree-li-sti label">Máx</li>
       </ul>
       
       {cities.map(({min, max, cityName}) => (
-        <ListSti 
+        <ListSti
+          key={itemKey++}
           min={min}
           max={max}
           cityName={cityName}
