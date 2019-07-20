@@ -2,14 +2,12 @@
   color: var(--color-first);
   width: 100vw;
   border: var(--color-first) .5px solid;
-  margin-top: 60px;
+  margin-top: 66px;
 }
 
 @media (min-width: 360px) {
   
   .section-division-sti {
     width: 600px;
-  }
-  
+  } 
 }
-

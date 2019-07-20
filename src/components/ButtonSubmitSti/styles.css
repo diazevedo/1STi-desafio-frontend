@@ -1,8 +1,4 @@
-.button-submit-sti {
-  background: none;
-  border: none;
-}
-
-.button-submit-sti:hover {
+.button-submit-sti:hover,
+.search-icon-sti:hover{
   cursor: pointer;
 }

@@ -3,7 +3,7 @@ import { FaSistrix } from "react-icons/fa"
 import './styles.css'
 
 const ButtonSubmitSti = ({ size, nameClass = "search-icon-sti" }) => (
-  <button type="submit" className="button-submit-sti fa fa-input">
+  <button type="submit" className="button-submit-sti">
     <FaSistrix size={size} className={nameClass}/>
   </button>
 )
