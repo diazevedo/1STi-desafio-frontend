@@ -1,87 +1,66 @@
 import React from "react"
 import SubtitleSti from "../SubtitleSti"
-import ListSti from "../ListSti"
+import TableCitiesSti from "../TableCitiesSti"
 
 import "./styles.css"
 
 const cities = [
   {
-    cityName: 'Rio de Janeiro',
+    name: 'Rio de Janeiro',
     min: "18°",
     max: "27°"
   },
   {
-    cityName: 'Salvador',
+    name: 'Salvador',
     min: "23°",
     max: "37°" 
   },
   {
-    cityName: 'São Paulo',
+    name: 'São Paulo',
     min: "14°",
     max: "22°"
   },
   {
-    cityName: 'Curitiba',
+    name: 'Curitiba',
     min: "5°",
     max: "14°" 
   },
   {
-    cityName: 'Belo Horizonte',
+    name: 'Belo Horizonte',
     min: "21°",
     max: "32°"
   },
   {
-    cityName: 'Fortaleza',
+    name: 'Fortaleza',
     min: "21°",
     max: "32°" 
   },
   {
-    cityName: 'Brasília',
+    name: 'Brasília',
     min: "24°",
     max: "37°" 
   },
   {
-    cityName: 'Manaus',
+    name: 'Manaus',
     min: "24°",
     max: "37°"
   },
   {
-    cityName: 'Belém',
+    name: 'Belém',
     min: "24°",
     max: "37°" 
   },
   {
-    cityName: 'João Pessoa',
+    name: 'João Pessoa',
     min: "28°",
     max: "40°"
   }
 ]
 
-
-var itemKey = 0;
-
 const SectionCitieSti = () => (
   <section className="section-cities-sti">
-    <div className="container">
-      <SubtitleSti />
-      <ul className="list-sti min-max-li"> 
-        <li className="degree-li-sti label">Min</li>
-        <li className="degree-li-sti label">Máx</li>
-      </ul>
-      <ul className="list-sti min-max-li"> 
-        <li className="degree-li-sti label">Min</li>
-        <li className="degree-li-sti label">Máx</li>
-      </ul>
-      
-      {cities.map(({min, max, cityName}) => (
-        <ListSti
-          key={itemKey++}
-          min={min}
-          max={max}
-          cityName={cityName}
-        />
-      ))}
-    </div>
+    <SubtitleSti />
+    <TableCitiesSti cities={cities} />
   </section>
 )
 
