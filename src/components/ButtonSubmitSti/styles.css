@@ -1,3 +1,7 @@
+.button-submit-sti {
+  color: #4c4b4b;
+}
+
 .button-submit-sti:hover,
 .search-icon-sti:hover{
   cursor: pointer;

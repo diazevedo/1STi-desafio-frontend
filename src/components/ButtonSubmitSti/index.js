@@ -1,10 +1,10 @@
 import React from "react"
-import { FaSistrix } from "react-icons/fa"
+import { MdSearch } from 'react-icons/md'
 import './styles.css'
 
 const ButtonSubmitSti = ({ size, nameClass = "search-icon-sti" }) => (
   <button type="submit" className="button-submit-sti">
-    <FaSistrix size={size} className={nameClass}/>
+    <MdSearch size={34} className={nameClass}/>
   </button>
 )
 

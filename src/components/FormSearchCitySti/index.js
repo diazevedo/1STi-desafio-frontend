@@ -8,7 +8,7 @@ const FormSearchCitySti = () => (
   <form className="form-city-sti">
     <div className="container-input">
       <InputTextSti placeholderText="Insira aqui o nome da cidade" />
-      <ButtonSubmitSti size={28} nameClass="search-icon-sti"/>
+      <ButtonSubmitSti size={34} nameClass="search-icon-sti"/>
     </div>
   </form>
 )

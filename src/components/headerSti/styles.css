@@ -1,16 +1,16 @@
 .header-sti {
-  height: 200px;
-  padding-top: 26px;
+  height: 198px;
+  padding-top: 14px;
   padding-left: 38px;
   text-align: justify;
   box-sizing: border-box;
 }
 
 .header-sti .title-sti {
-  width: 220px;
+  width: 250px;
 }
 
-@media (min-width: 340px) {
+@media (min-width: 361px) {
   
   .header-sti {
     text-align: center;
