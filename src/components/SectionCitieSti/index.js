@@ -11,29 +11,16 @@ const cities = [
     max: "27°"
   },
   {
-    name: 'Salvador',
-    min: "23°",
-    max: "37°" 
-  },
-  {
     name: 'São Paulo',
     min: "14°",
     max: "22°"
-  },
-  {
-    name: 'Curitiba',
-    min: "5°",
-    max: "14°" 
+    
   },
   {
     name: 'Belo Horizonte',
     min: "21°",
     max: "32°"
-  },
-  {
-    name: 'Fortaleza',
-    min: "21°",
-    max: "32°" 
+    
   },
   {
     name: 'Brasília',
@@ -41,14 +28,29 @@ const cities = [
     max: "37°" 
   },
   {
-    name: 'Manaus',
-    min: "24°",
-    max: "37°"
-  },
-  {
     name: 'Belém',
     min: "24°",
     max: "37°" 
+  },
+  {
+    name: 'Salvador',
+    min: "23°",
+    max: "37°"
+  },
+  {
+    name: 'Curitiba',
+    min: "5°",
+    max: "14°" 
+  },
+  {
+    name: 'Fortaleza',
+    min: "21°",
+    max: "32°" 
+  },
+  {
+    name: 'Manaus',
+    min: "24°",
+    max: "37°"
   },
   {
     name: 'João Pessoa',

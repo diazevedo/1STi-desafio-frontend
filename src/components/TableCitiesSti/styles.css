@@ -1,0 +1,21 @@
+.table-sti {
+  line-height: 43px;
+  margin-top: 18px; 
+}
+
+.table-sti td {
+  padding-right: 15px;
+}
+
+.table-sti .thead-sti {
+  font-weight: 100;
+  font-size: 12px;
+  color: black;
+  text-align: left;
+  line-height: 20px;
+}
+
+.table-sti .tbody-tsi {
+  font-size: 15px; 
+  font-weight: 700;
+}
