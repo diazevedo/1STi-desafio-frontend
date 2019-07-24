@@ -3,14 +3,14 @@ import { MdClear, MdArrowDownward, MdArrowUpward } from 'react-icons/md'
 
 import "./styles.css"
 
-const SectionCityWeather = () => (
-  <article className="article-weather-sti">
+const SectionCityWeather = ({display, handleClick}) => (
+  <article className={`article-weather-sti ${display}`}>
     
     <header>
       <h3 className="text-h3">
         Niterói, RJ - Brasil
       </h3>
-      <button className="button-close-sti"><MdClear size={30}/></button>
+      <button className="button-close-sti" onClick={handleClick}><MdClear size={30}/></button>
     </header>
 
     <section className="current-weather-sti">
