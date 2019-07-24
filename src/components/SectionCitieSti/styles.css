@@ -1,12 +1,14 @@
 .section-cities-sti {
   width: 100%;
-  /* height: 550px; */
-  /* background-color: green; */
   border-top: var(--color-first) 1px solid;
   margin-top: 64px;
-  padding-left: 42px;
+  padding-left: 38px;
   padding-top: 26px;
-  box-sizing: border-box;  
+  box-sizing: border-box;
+}
+
+.-smaller {
+  margin-top: 20px;
 }
 /*
 .section-cities-sti .container {

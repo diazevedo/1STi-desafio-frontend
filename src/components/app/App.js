@@ -2,13 +2,19 @@ import React from 'react'
 import HeaderSti from '../HeaderSti'
 import FormSearchCitySti from '../FormSearchCitySti'
 import SectionCitieSti from "../SectionCitieSti"
+import SectionCityWeather from "../SectionCityWeather"
 //https://openweathermap.org/api
+
+const cityForecast = {
+  searched: true
+}
 
 const App = () => (
   <>
-    <HeaderSti />
+    <HeaderSti city={`${cityForecast.searched ? "-smaller" : ""}`}/>
+    <SectionCityWeather />
     <FormSearchCitySti />
-    <SectionCitieSti />
+    <SectionCitieSti city={`${cityForecast.searched ? "-smaller" : ""}`}/>
   </>
 )
 

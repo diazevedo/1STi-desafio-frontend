@@ -59,8 +59,8 @@ const cities = [
   }
 ]
 
-const SectionCitieSti = () => (
-  <section className="section-cities-sti">
+const SectionCitieSti = (city) => (
+  <section className={`section-cities-sti ${city.city}`}>
     <SubtitleSti />
     <TableCitiesSti cities={cities} />
   </section>
