@@ -1,5 +1,6 @@
 .header-sti {
   height: 210px;
+  width: 100%;
   padding-top: 14px;
   padding-left: 38px;
   text-align: justify;
@@ -25,13 +26,13 @@
 @media (min-width: 361px) {
   
   .header-sti {
-    text-align: center;
-    height: 225px;
-    padding-top: 85px;
+    /* text-align: center; */
+    /* height: 225px; */
+    /* padding-top: 85px; */
   }  
 
   .header-sti .title-sti {
-    font-size: var(--size-biggest);
-    width: 100%;
+    /* font-size: var(--size-biggest); */
+    /* width: 100%; */
   }
 }

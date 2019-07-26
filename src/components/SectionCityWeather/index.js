@@ -48,12 +48,12 @@ const SectionCityWeather = ({ handleClick, currentWeather }) => {
 
               </div>
 
-              <p className="extra-info-sti">Sensação <span>{currentWeather.currentCondition.feelsLike}</span></p>
+              <p className="extra-info-sti">Sensação <span className="bold">{currentWeather.currentCondition.feelsLike}</span></p>
 
             </div>
             
-            <p className="extra-info-sti wider-div">Vento <span>{currentWeather.currentCondition.wind}</span></p>
-            <p className="extra-info-sti">humidade <span></span>{currentWeather.currentCondition.humidity}</p>
+            <p className="extra-info-sti wider-div">Vento <span className="bold">{currentWeather.currentCondition.wind}</span></p>
+            <p className="extra-info-sti">humidade <span className="bold">{currentWeather.currentCondition.humidity}</span></p>
 
           </article>
 
