@@ -21,4 +21,3 @@ const request = new OAuth.OAuth(
 );
 
 export { request as api };
-// exports.myFunc2 = myFunc2;

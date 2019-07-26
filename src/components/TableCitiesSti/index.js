@@ -28,8 +28,8 @@ class TableCitiesSti extends React.Component {
           }
           </tbody>
         </table>
-      )
-    }  
+     )
+  }  
 }
 
 export default TableCitiesSti

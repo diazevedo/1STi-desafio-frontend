@@ -1,9 +1,10 @@
 import React from "react"
 import { MdClear, MdArrowDownward, MdArrowUpward } from 'react-icons/md'
+import NextDays from "../NextDays"
 
 import "./styles.css"
 
-const SectionCityWeather = ({ display, handleClick, currentWeather }) => {
+const SectionCityWeather = ({ handleClick, currentWeather }) => {
   
 
     if(Object.keys(currentWeather).length === 0)
@@ -11,7 +12,7 @@ const SectionCityWeather = ({ display, handleClick, currentWeather }) => {
     
     return(
 
-      <article className={`article-weather-sti ${display}`}>
+      <article className="article-weather-sti">
         
         <header>
           <h3 className="text-h3">
@@ -52,31 +53,12 @@ const SectionCityWeather = ({ display, handleClick, currentWeather }) => {
             </div>
             
             <p className="extra-info-sti wider-div">Vento <span>{currentWeather.currentCondition.wind}</span></p>
-            <p className="extra-info-sti">Humidade <span></span>{currentWeather.currentCondition.humidity}</p>
+            <p className="extra-info-sti">humidade <span></span>{currentWeather.currentCondition.humidity}</p>
 
           </article>
 
         </section>
-        
-        <aside className="next-days flex">
-          <div className="next-day first">
-            <h3 className="">Terça</h3>
-            <p>18° 26°</p>
-          </div>
-          <div className="next-day">
-            <h3>Quarta</h3>
-            <p>18° 28°</p>
-          </div>
-          <div className="next-day">
-            <h3>Quinta</h3>
-            <p>19° 30°</p>
-          </div>
-          <div className="next-day">
-            <h3 className="last">Sexta</h3>
-            <p>23° 35°</p>
-          </div>
-        </aside>
-
+        <NextDays forecast={currentWeather.forecast}/>
       </article>
     )
 }

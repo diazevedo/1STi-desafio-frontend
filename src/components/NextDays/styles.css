@@ -1,0 +1,22 @@
+.next-days {
+  height: 92px;
+  border-top:#ff7e00 1px solid;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+
+.next-day {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 30px;
+}
+
+.next-day p {
+  color: #ff7e00;
+  font-size: 16px;
+}
+
+.last {
+  text-align: left;
+}
