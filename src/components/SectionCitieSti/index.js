@@ -83,6 +83,7 @@ const idCities = [
 
 const SectionCitiesSti = (city) => {
 
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=`;
   const ApiKey = `d6cfde10e216a6f677b7324f015fa9c7`;
   const lang = `pt`;
   const [citiesData, setCities] = useState([]);
