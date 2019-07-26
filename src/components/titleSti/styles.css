@@ -6,16 +6,8 @@
   font-weight: 600;
 }
 
-@media (min-width: 361px) {
+@media (min-width: 500px) {
   .title-sti {
-    /* font-size: 52px;  */
-    color: brown;
-  }
-}
-
-@media (min-width: 410px) {
-  .title-sti {
-    /* font-size: 58px;  */
-    color: aqua;
+    font-size: 56px;
   }
 }

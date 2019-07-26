@@ -1,0 +1,10 @@
+.wather-degree-condition {
+  background-color: blueviolet;
+  width: 75%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.wather-degree-condition .today-weather-sti {
+  /* padding-left: 80px; */
+}

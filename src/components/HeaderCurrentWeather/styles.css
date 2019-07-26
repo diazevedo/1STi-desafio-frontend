@@ -1,0 +1,14 @@
+.header-current-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-current-weather {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button-close-sti > svg {
+  color: #ff7e00;
+}

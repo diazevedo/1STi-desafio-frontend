@@ -3,7 +3,6 @@ import TitleSti from "../TitleSti"
 import "./styles.css"
 
 const HeaderSti = ({city}) => {
-  console.log(city)
   return (
     <header className={`header-sti${city}`} >
       <TitleSti city={city}/>

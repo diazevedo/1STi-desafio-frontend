@@ -1,63 +1,38 @@
 import React from "react"
-import { MdClear, MdArrowDownward, MdArrowUpward } from 'react-icons/md'
+import HeaderCurrentWeather from "../HeaderCurrentWeather"
 import NextDays from "../NextDays"
+import SectionWatherDegreeCondition from "../SectionWatherDegreeCondition";
 
 import "./styles.css"
 
+
 const SectionCityWeather = ({ handleClick, currentWeather }) => {
   
-
     if(Object.keys(currentWeather).length === 0)
       return (""); 
+  
+    const { currentCondition } = currentWeather;
     
     return(
 
       <article className="article-weather-sti">
         
-        <header>
-          <h3 className="text-h3">
-            {currentWeather.name}
-          </h3>
-          <button className="button-close-sti" onClick={handleClick}><MdClear size={30}/></button>
-        </header>
+        <HeaderCurrentWeather 
+          handleClick={handleClick}
+          text={currentWeather.name}
+          size={30}
+        />
 
-        <section className="current-weather-sti">
-      
-          <p className="today-weather-sti">
-            {currentWeather.currentCondition.degrees}
-          </p>
-          <p className="today-weather-sti">
-            {currentWeather.currentCondition.condition}
-          </p>
-
-          <article className="article-today-sti flex">
-            
-            <div className="div-first-line flex">
-            
-              <div className="flex">
-                
-                <div className="icon-degree-sti flex">
-                  <MdArrowDownward size={26}/>
-                  <p className="paragraph-degree-sti">{currentWeather.currentCondition.min}</p>
-                </div>
-                
-                <div className="icon-degree-sti flex m-right">
-                  <MdArrowUpward size={26}/>
-                  <p className="paragraph-degree-sti">{currentWeather.currentCondition.max}</p>
-                </div>
-
-              </div>
-
-              <p className="extra-info-sti">Sensação <span className="bold">{currentWeather.currentCondition.feelsLike}</span></p>
-
-            </div>
-            
-            <p className="extra-info-sti wider-div">Vento <span className="bold">{currentWeather.currentCondition.wind}</span></p>
-            <p className="extra-info-sti">humidade <span className="bold">{currentWeather.currentCondition.humidity}</span></p>
-
-          </article>
-
-        </section>
+        <SectionWatherDegreeCondition 
+          degrees={currentCondition.degrees}
+          condition={currentCondition.condition}
+          min={currentCondition.min}
+          max={currentCondition.max}
+          feelsLike={currentCondition.feelsLike}
+          wind={currentCondition.wind}
+          humidity={currentCondition.humidity}
+        />
+       
         <NextDays forecast={currentWeather.forecast}/>
       </article>
     )

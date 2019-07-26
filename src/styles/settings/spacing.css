@@ -1,4 +1,11 @@
 :root {
+  --spacing-title-home: 38px;
+  --spacing-input-top-bottom: 60px;
+  --spacing-input-top-bottom-small: 20px;
+  --spacing-input-sides: 6px;
+  --spacing-sub-top-table-row: 30px;
+
+
   --spacing-smallest: 5px;
   --spacing-smaller: 10px;
   --spacing-small: 15px;
