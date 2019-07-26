@@ -4,9 +4,12 @@ import WeatherExtraInfo from '../WeatherExtraInfo'
 import './styles.css'
 
 const SectionWatherDegreeCondition = ({degrees, condition, min, max, feelsLike, wind, humidity }) => (
+  
   <section className="wather-degree-condition">
-    <ParagraphWeather>{ degrees }</ParagraphWeather>
-    <ParagraphWeather>{ condition }</ParagraphWeather>
+    <div className="grid-two-columns">
+      <ParagraphWeather>{ degrees }</ParagraphWeather>
+      <ParagraphWeather>{ condition }</ParagraphWeather>
+    </div>
     <WeatherExtraInfo 
       min={min}
       max={max}
@@ -15,6 +18,7 @@ const SectionWatherDegreeCondition = ({degrees, condition, min, max, feelsLike, 
       humidity={humidity}
     />
   </section>
+
 )
 
 export default SectionWatherDegreeCondition

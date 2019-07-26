@@ -1,10 +1,12 @@
 .wather-degree-condition {
-  background-color: blueviolet;
-  width: 75%;
+  width: 80%;
   text-align: left;
   margin: 0 auto;
+  padding-left: 10px;
 }
 
-.wather-degree-condition .today-weather-sti {
-  /* padding-left: 80px; */
+.wather-degree-condition .grid-two-columns {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 30px;
 }

@@ -1,3 +1,19 @@
 .weather-extra-info {
   background-color: #fff;
+  display: grid;
+  grid-template-columns: 100px 60%;
+  grid-template-rows: 40px;
+  column-gap: 30px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.icon-degree-sti {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between */
+}
+
+.div-fle {
+  display: flex;
 }

@@ -12,7 +12,7 @@ const SectionCityWeather = ({ handleClick, currentWeather }) => {
       return (""); 
   
     const { currentCondition } = currentWeather;
-    
+
     return(
 
       <article className="article-weather-sti">
@@ -34,6 +34,7 @@ const SectionCityWeather = ({ handleClick, currentWeather }) => {
         />
        
         <NextDays forecast={currentWeather.forecast}/>
+        
       </article>
     )
 }
