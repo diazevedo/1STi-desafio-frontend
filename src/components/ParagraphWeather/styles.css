@@ -3,3 +3,11 @@
   font-weight: 700;
   display: inline-block;
 }
+
+@media(min-width: 500px) {
+  
+  .today-weather-sti {
+    font-size: 48px;
+  }
+  
+}

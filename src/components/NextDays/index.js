@@ -5,7 +5,7 @@ var { translateDays } = require("../../helpers/translateDay")
 const NextDays = ({forecast}) => {
   
   return (
-    <aside className="next-days flex">
+    <aside className="next-days">
       {
         forecast.map(function({ day, low, high }, index){
          

@@ -3,6 +3,7 @@ import HeaderSti from '../HeaderSti'
 import FormSearchCitySti from '../FormSearchCitySti'
 import SectionCitieSti from "../SectionCitieSti"
 import SectionCityWeather from "../SectionCityWeather"
+
 const { api } = require ("../../helpers/apiCall")
 
 function translateCondition(id) {
@@ -87,7 +88,7 @@ const App = () => {
             condition: translateCondition(forData.current_observation.condition.code),
             min: `${forData.forecasts[0].low}°`,
             max: `${forData.forecasts[0].high}°`,
-            wind: `${forData.current_observation.wind.speed.toFixed(0)}Km/h`,
+            wind: `${forData.current_observation.wind.speed.toFixed(0)}km/h`,
             feelsLike: Math.floor((forData.current_observation.wind.chill -32) * 5 / 9) + 'º',
             humidity: `${forData.current_observation.atmosphere.humidity}%`,
           },
@@ -106,7 +107,7 @@ const App = () => {
 
   return (
     <>
-      <HeaderSti city={`${Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""}`}/>
+      <HeaderSti classModifier={`${Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""}`}/>
       
       <SectionCityWeather 
         currentWeather={cityCurrentWeather}
@@ -114,7 +115,10 @@ const App = () => {
         handleClick={handleClickClose}
       />
 
-      <FormSearchCitySti handleClick={handleClickSearch}/>
+      <FormSearchCitySti 
+        handleClick={handleClickSearch}
+        classModifier={`${Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""}`}  
+      />
       <SectionCitieSti classModifier={`${Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""}`}/>
     </>
   )

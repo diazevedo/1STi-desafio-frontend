@@ -3,6 +3,11 @@
   margin-top: var(--spacing-input-top-bottom);
 }
 
+.form-city-sti.-smaller {
+  margin-top: var(--spacing-input-sides);
+  margin-bottom: var(--spacing-input-sides);
+}
+
 .form-city-sti .container-input {
   width: 90%;
   height: inherit;

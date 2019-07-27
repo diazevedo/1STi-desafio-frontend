@@ -4,7 +4,7 @@ import ButtonSubmitSti from "../ButtonSubmitSti"
 
 import "./styles.css"
 
-const FormSearchCitySti = ({ handleClick }) => {
+const FormSearchCitySti = ({ handleClick, classModifier }) => {
   
 const [citySearched, setCitySearched] = useState("")
   
@@ -13,7 +13,7 @@ const [citySearched, setCitySearched] = useState("")
   }
   
   return (
-    <form className="form-city-sti" onSubmit={(event) => handleClick(event, citySearched)}>
+    <form className={`form-city-sti ${classModifier}`} onSubmit={(event) => handleClick(event, citySearched)}>
       <div className="container-input">
         <InputTextSti handleChange={handleChange} placeholderText="Insira aqui o nome da cidade" />
         <ButtonSubmitSti size={34} nameClass="search-icon-sti" />

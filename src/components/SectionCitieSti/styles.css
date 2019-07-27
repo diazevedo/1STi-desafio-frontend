@@ -3,10 +3,10 @@
   border-top: var(--color-first) 1px solid;
   margin-top: var(--spacing-input-top-bottom);
   padding-left: var(--spacing-title-home);
-  padding-top: var(--spacing-sub-top-table-row); 
+  padding-top: var(--spacing-mid-big);
   box-sizing: border-box;
 }
 
-.-smaller {
-  margin-top: 20px;
+.section-cities-sti.-smaller {
+  margin-top: 15px;
 }

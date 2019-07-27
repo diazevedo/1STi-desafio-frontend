@@ -2,10 +2,10 @@ import React from "react"
 import TitleSti from "../TitleSti"
 import "./styles.css"
 
-const HeaderSti = ({city}) => {
+const HeaderSti = ({classModifier}) => {
   return (
-    <header className={`header-sti${city}`} >
-      <TitleSti city={city}/>
+    <header className={`header-sti ${classModifier}`} >
+      <TitleSti classModifier={classModifier}/>
     </header>
   )
 }

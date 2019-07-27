@@ -2,11 +2,15 @@
   width: 80%;
   text-align: left;
   margin: 0 auto;
-  padding-left: 10px;
+  padding-left: 0.5em;
 }
 
 .wather-degree-condition .grid-two-columns {
   display: grid;
-  grid-template-columns: 30% 70%;
-  grid-gap: 30px;
+  grid-template-columns: max-content max-content;
+  grid-column-gap: 5%;
+}
+
+.wather-degree-condition .weather-extra-info {
+  margin-top: 10px;
 }
