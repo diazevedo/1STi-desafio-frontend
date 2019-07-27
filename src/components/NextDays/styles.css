@@ -4,6 +4,7 @@
   justify-content: space-around;
   display: flex;
   box-sizing: border-box;
+  text-align: center;
 }
 
 .next-day {

@@ -17,6 +17,10 @@
 
 @media (min-width: 500px) {
   
+  .header-sti {
+    background-color: aqua;
+  }
+
   .header-sti .title-sti {
     width: 300px
   }
