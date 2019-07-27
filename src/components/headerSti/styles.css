@@ -16,10 +16,6 @@
 }
 
 @media (min-width: 500px) {
-  
-  .header-sti {
-    background-color: aqua;
-  }
 
   .header-sti .title-sti {
     width: 300px
@@ -30,8 +26,7 @@
 @media (min-width: 600px) {
 
   .header-sti {
-    height: 180px;
-    padding-top: 40px;
+    padding-top: 46px;
   }
 
   .header-sti .title-sti {

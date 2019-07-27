@@ -36,3 +36,11 @@
   right: 18px;
   color: #535353;
 }
+
+@media (min-width: 600px) {
+  
+  .form-city-sti {
+    margin-top: 20px;
+  }
+
+}
