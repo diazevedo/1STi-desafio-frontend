@@ -35,7 +35,11 @@ const SectionCitiesSti = ({classModifier}) => {
   return (
     <section className={`section-cities-sti ${classModifier}`}>
       <SubtitleSti />
-      <TableCitiesSti cities={citiesData} />
+      <div>
+        <TableCitiesSti cities={citiesData.slice(0,5)} />
+
+        <TableCitiesSti cities={citiesData.slice(5,10)} />
+      </div>
     </section>
   );
 }

@@ -1,6 +1,6 @@
 .table-sti {
   line-height: 43px;
-  margin-top: 18px; 
+  /* margin-top: 18px;  */
 }
 
 .table-sti td {
@@ -18,4 +18,13 @@
 .table-sti .tbody-tsi {
   font-size: 15px; 
   font-weight: 700;
+}
+
+@media (min-width: 600px) {
+  
+  .table-sti  {
+    display: inline-block;
+    width: 205px;
+    text-align: left;
+  }
 }

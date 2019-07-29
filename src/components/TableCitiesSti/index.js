@@ -1,13 +1,9 @@
 import React from "react"
 import "./styles.css"
 
-class TableCitiesSti extends React.Component {
-    constructor(props) {
-      super(props);
-    }
+const TableCitiesSti = ({cities}) => {
 
-    render () {
-      return (
+     return (
         <table className="table-sti">
           <thead className="thead-sti">
             <tr>
@@ -17,7 +13,7 @@ class TableCitiesSti extends React.Component {
           </thead>
           <tbody className="tbody-tsi">
           {
-            this.props.cities.map(({min, max, name}, index) =>
+            cities.map(({min, max, name}, index) =>
             <tr key={index}>
               <td className="td-min">{min}</td>
               <td>{max}</td>
@@ -27,8 +23,7 @@ class TableCitiesSti extends React.Component {
           }
           </tbody>
         </table>
-     )
-  }  
+    )
 }
 
 export default TableCitiesSti
