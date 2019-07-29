@@ -4,6 +4,7 @@
   line-height: 66px;
   letter-spacing: 0.02em;
   font-weight: 600;
+  box-sizing: border-box;
 }
 
 .title-sti.-smaller {
@@ -12,7 +13,18 @@
 }
 
 @media (min-width: 500px) {
+
   .title-sti {
     font-size: 56px;
   }
+
+}
+
+
+@media (min-width: 600px) {
+
+  .title-sti {
+    font-size: 60px;
+  }
+
 }

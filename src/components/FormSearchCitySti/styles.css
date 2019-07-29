@@ -37,10 +37,22 @@
   color: #535353;
 }
 
+@media (min-width: 500px) {
+  
+  .form-city-sti .container-input {
+    width: 500px;
+  }
+}
+
 @media (min-width: 600px) {
   
   .form-city-sti {
-    margin-top: 20px;
+    margin-top: 66px;
+    height: 60px;
+  }
+  
+  .form-city-sti .button-submit-sti {
+    right: 5px;
   }
 
 }

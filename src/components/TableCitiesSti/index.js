@@ -1,7 +1,6 @@
 import React from "react"
 import "./styles.css"
 
-
 class TableCitiesSti extends React.Component {
     constructor(props) {
       super(props);

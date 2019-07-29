@@ -1,5 +1,5 @@
 .article-weather-sti {
-  height: 294px;
+  height: 290px;
   width: 100vw;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -33,19 +33,26 @@
 
 @media (min-width: 500px) {
   
-  
   .article-weather-sti {
-    height: 330px;
+    height: 304px;
     width: 500px;
     margin: 0 auto;
+    margin-top: 30px;
   }
 
-  .wather-degree-condition {
+  .article-weather-sti .header-current-weather {
+    height: 50px;
+    margin-top: 0px;
+  }
+
+  .article-weather-sti .wather-degree-condition {
     height: 130px;
+    margin-top: 10px;
   }
 
-  .header-current-weather {
-    height: 70px;
+  .article-weather-sti .next-days {
+    margin-top: 24px;
   }
+
 
 }

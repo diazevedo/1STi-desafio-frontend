@@ -14,3 +14,9 @@
 .wather-degree-condition .weather-extra-info {
   margin-top: 10px;
 }
+
+@media (min-width: 500px) {
+  .wather-degree-condition .weather-extra-info {
+    margin-top: 15px;
+  }
+}

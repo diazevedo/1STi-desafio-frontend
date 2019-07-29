@@ -9,6 +9,11 @@
   font-weight: 700;
 }
 
+.button-close-sti {
+  border: none;
+  background: none;
+}
+
 .button-close-sti > svg {
   color: #ff7e00;
 }

@@ -1,7 +1,7 @@
 html, body {
   height: 100vh; 
   width: 100vw;
-  background: linear-gradient(to bottom, #ff7f00, #ff8f00, #ff9e00, #ffad00, #ffbb00);
+  background: linear-gradient(to bottom, #ff7200,#ffb300); 
   /* I need to read about it -- background-attachment: fixed; */
   background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;

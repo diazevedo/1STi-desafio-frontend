@@ -10,3 +10,17 @@
 .section-cities-sti.-smaller {
   margin-top: 15px;
 }
+
+@media (min-width: 600px) {
+
+  .section-cities-sti {
+    width: 580px;
+    margin: 0 auto;
+    margin-top: var(--spacing-input-top-bottom);
+  }
+
+  .section-cities-sti.-smaller {
+    margin-top: 35px;
+  }
+  
+}

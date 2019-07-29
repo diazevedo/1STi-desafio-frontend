@@ -5,12 +5,13 @@
   column-gap: 5%;
   row-gap: 10px;
   align-items: center;
-  text-align: center;
 }
 
 .wrapper-degree-condition-flex {
+  width: 110px;
   display: flex;
   margin-left: -5px;
+  justify-content: space-between;
 }
 
 .extra-info-sti {
@@ -27,6 +28,11 @@
 
   .weather-extra-info {
     height: 80px;
+
+  }
+
+  .wrapper-degree-condition-flex {
+    width: 120px;
   }
 
   .extra-info-sti {

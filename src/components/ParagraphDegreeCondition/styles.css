@@ -5,3 +5,9 @@
 .icon-degree-sti svg {
   color: #ff7e00;
 }
+
+@media (min-width: 500px) {
+  .icon-degree-sti > p {
+    font-size: 18px;
+  }
+}

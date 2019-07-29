@@ -1,5 +1,7 @@
 .button-submit-sti {
   color: #4c4b4b;
+  border: none;
+  background: none;
 }
 
 .button-submit-sti:hover,
