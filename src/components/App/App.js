@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Header from '../Header'
 import FormSearchCity from '../FormSearchCity'
-import SectionCitie from "../SectionCitie"
+import SectionCitie from "../SectionCities"
 import SectionCityWeather from "../SectionCityWeather"
 
 const { api } = require ("../../helpers/apiCall")
