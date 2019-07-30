@@ -1,4 +1,4 @@
-.title-sti {
+.title {
   font-size: var(--size-bigger);
   color: var(--color-first);
   line-height: 66px;
@@ -7,14 +7,14 @@
   box-sizing: border-box;
 }
 
-.title-sti.-smaller {
+.title.-smaller {
   font-size: var(--size-big);
   padding-left: var(--spacing-big);
 }
 
 @media (min-width: 500px) {
 
-  .title-sti {
+  .title {
     font-size: 56px;
   }
 
@@ -23,7 +23,7 @@
 
 @media (min-width: 600px) {
 
-  .title-sti {
+  .title {
     font-size: 60px;
   }
 

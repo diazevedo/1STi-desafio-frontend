@@ -1,14 +1,14 @@
-.form-city-sti {
+.form-city {
   height: 44px;
   margin-top: var(--spacing-input-top-bottom);
 }
 
-.form-city-sti.-smaller {
+.form-city.-smaller {
   margin-top: var(--spacing-small);
   margin-bottom: var(--spacing-small);
 }
 
-.form-city-sti .container-input {
+.form-city .container-input {
   width: 90%;
   height: inherit;
   background-color: var(--color-first);
@@ -19,7 +19,7 @@
   border: var(--color-second) 1px solid;
 }
 
-.form-city-sti .container-input .input-text-sti {
+.form-city .container-input .input-text {
   width: 92%;
   height: 100%;
   padding: 0;
@@ -29,7 +29,7 @@
   font-weight: 200; 
 }
 
-.form-city-sti .button-submit-sti {
+.form-city .button-submit {
   width: 10%;
   height: 100%;
   position: absolute;
@@ -39,19 +39,19 @@
 
 @media (min-width: 500px) {
   
-  .form-city-sti .container-input {
+  .form-city .container-input {
     width: 500px;
   }
 }
 
 @media (min-width: 600px) {
   
-  .form-city-sti {
+  .form-city {
     margin-top: 66px;
     height: 60px;
   }
   
-  .form-city-sti .button-submit-sti {
+  .form-city .button-submit {
     right: 5px;
   }
 

@@ -1,13 +1,13 @@
 import React from "react"
-import TitleSti from "../TitleSti"
+import Title from "../Title"
 import "./styles.css"
 
-const HeaderSti = ({classModifier}) => {
+const Header = ({classModifier}) => {
   return (
-    <header className={`header-sti ${classModifier}`} >
-      <TitleSti classModifier={classModifier}/>
+    <header className={`header ${classModifier}`} >
+      <Title classModifier={classModifier}/>
     </header>
   )
 }
 
-export default HeaderSti
+export default Header

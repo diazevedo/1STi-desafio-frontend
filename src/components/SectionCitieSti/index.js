@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react"
-import SubtitleSti from "../SubtitleSti"
-import TableCitiesSti from "../TableCitiesSti"
+import Subtitle from "../Subtitle"
+import TableCities from "../TableCities"
 import axios from "axios"
 
 import "./styles.css"
 
 const { idCities } = require("../../helpers/idCities")
 
-const SectionCitiesSti = ({classModifier}) => {
+const SectionCities = ({classModifier}) => {
 
   const [citiesData, setCities] = useState([]);
   
@@ -33,15 +33,15 @@ const SectionCitiesSti = ({classModifier}) => {
   }, [])
 
   return (
-    <section className={`section-cities-sti ${classModifier}`}>
-      <SubtitleSti />
+    <section className={`section-cities ${classModifier}`}>
+      <Subtitle />
       <div className="wrapper-tables">
-        <TableCitiesSti cities={citiesData.slice(0,5)} />
+        <TableCities cities={citiesData.slice(0,5)} />
 
-        <TableCitiesSti cities={citiesData.slice(5,10)} />
+        <TableCities cities={citiesData.slice(5,10)} />
       </div>
     </section>
   );
 }
 
-export default SectionCitiesSti
+export default SectionCities

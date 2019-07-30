@@ -2,10 +2,10 @@ import React from "react"
 import { MdSearch } from 'react-icons/md'
 import './styles.css'
 
-const ButtonSubmitSti = ({ size, nameClass }) => (
-  <button type="submit" className="button-submit-sti">
+const ButtonSubmit = ({ size, nameClass }) => (
+  <button type="submit" className="button-submit">
     <MdSearch size={size} className={nameClass}/>
   </button>
 )
 
-export default ButtonSubmitSti
+export default ButtonSubmit

@@ -6,7 +6,7 @@ import "./styles.css"
 const HeaderCurrentWeather = ({handleClick, size, text}) => (
    <header className="header-current-weather">
     <h3 className="title-current-weather">{ text }</h3>
-    <button className="button-close-sti" onClick={handleClick}><MdClear size={size}/></button>
+    <button className="button-close" onClick={handleClick}><MdClear size={size}/></button>
   </header>
 )
 

@@ -9,11 +9,11 @@
   font-weight: 700;
 }
 
-.button-close-sti {
+.button-close {
   border: none;
   background: none;
 }
 
-.button-close-sti > svg {
+.button-close > svg {
   color: var(--color-second);
 }

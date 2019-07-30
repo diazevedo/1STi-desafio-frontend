@@ -16,9 +16,9 @@ const WeatherExtraInfo = ({min, max, feelsLike, wind, humidity}) => (
         </ParagraphDegreeCondition>
       </div>
 
-      <p className="extra-info-sti">Sensação <span className="bold">{feelsLike}</span></p>
-      <p className="extra-info-sti">Vento <span className="bold">{wind}</span></p>
-      <p className="extra-info-sti">humidade <span className="bold">{humidity}</span></p>
+      <p className="extra-info">Sensação <span className="bold">{feelsLike}</span></p>
+      <p className="extra-info">Vento <span className="bold">{wind}</span></p>
+      <p className="extra-info">humidade <span className="bold">{humidity}</span></p>
       
   </div>
 )

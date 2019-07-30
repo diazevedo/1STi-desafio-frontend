@@ -1,10 +1,10 @@
-.button-submit-sti {
+.button-submit {
   color: var(--color-third);
   border: none;
   background: none;
 }
 
-.button-submit-sti:hover,
-.search-icon-sti:hover{
+.button-submit:hover,
+.search-icon:hover{
   cursor: pointer;
 }

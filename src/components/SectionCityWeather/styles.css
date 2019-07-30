@@ -1,4 +1,4 @@
-.article-weather-sti {
+.article-weather {
   height: 290px;
   width: 100vw;
   padding-top: var(--spacing-smallest);
@@ -10,47 +10,47 @@
   box-shadow: 5px 0 5px #735022;
 }
 
-.article-weather-sti .header-current-weather {
+.article-weather .header-current-weather {
   width: inherit;
   margin-top: var(--spacing-smallest);
 }
 
-.article-weather-sti .title-current-weather {
+.article-weather .title-current-weather {
   margin-left: var(--spacing-title-home);
 }
 
-.article-weather-sti .button-close-sti {
+.article-weather .button-close {
   margin-right: var(--spacing-input-sides);
 }
 
-.article-weather-sti .wather-degree-condition {
+.article-weather .wather-degree-condition {
   margin-top: 24px;
 }
 
-.article-weather-sti .next-days {
+.article-weather .next-days {
   margin-top: var(--spacing-small);
 }
 
 @media (min-width: 500px) {
   
-  .article-weather-sti {
+  .article-weather {
     height: 304px;
     width: 500px;
     margin: 0 auto;
     margin-top: var(--spacing-big);
   }
 
-  .article-weather-sti .header-current-weather {
+  .article-weather .header-current-weather {
     height: 50px;
     margin-top: 0px;
   }
 
-  .article-weather-sti .wather-degree-condition {
+  .article-weather .wather-degree-condition {
     height: 130px;
     margin-top:var(--spacing-smaller);
   }
 
-  .article-weather-sti .next-days {
+  .article-weather .next-days {
     margin-top: 24px;
   }
 

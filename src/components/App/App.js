@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import HeaderSti from '../HeaderSti'
-import FormSearchCitySti from '../FormSearchCitySti'
-import SectionCitieSti from "../SectionCitieSti"
+import Header from '../Header'
+import FormSearchCity from '../FormSearchCity'
+import SectionCitie from "../SectionCitie"
 import SectionCityWeather from "../SectionCityWeather"
 
 const { api } = require ("../../helpers/apiCall")
@@ -38,19 +38,19 @@ const App = () => {
 
   return (
     <>
-      <HeaderSti classModifier={`${Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""}`}/>
+      <Header classModifier={`${Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""}`}/>
       
       <SectionCityWeather 
         currentWeather={cityCurrentWeather} 
         handleClick={handleClickClose}
       />
 
-      <FormSearchCitySti 
+      <FormSearchCity 
         handleClick={handleClickSearch}
         classModifier={`${Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""}`}  
       />
 
-      <SectionCitieSti classModifier={`${Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""}`}/>
+      <SectionCitie classModifier={`${Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""}`}/>
     </>
   )
 }

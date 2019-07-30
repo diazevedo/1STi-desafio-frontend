@@ -1,11 +1,11 @@
 import React from "react"
 import "./styles.css"
 
-const TableCitiesSti = ({cities}) => {
+const TableCities = ({cities}) => {
 
      return (
-        <table className="table-sti">
-          <thead className="thead-sti">
+        <table className="table">
+          <thead className="thead">
             <tr>
               <th>Min</th>
               <th>Máx</th>
@@ -26,4 +26,4 @@ const TableCitiesSti = ({cities}) => {
     )
 }
 
-export default TableCitiesSti
+export default TableCities

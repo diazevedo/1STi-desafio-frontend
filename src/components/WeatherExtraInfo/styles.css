@@ -14,12 +14,12 @@
   justify-content: space-between;
 }
 
-.extra-info-sti {
+.extra-info {
   font-size: var(--size-small);
   font-weight: 300;
 }
 
-.extra-info-sti .bold {
+.extra-info .bold {
   font-weight: 600;
   text-transform: initial;
 }
@@ -35,7 +35,7 @@
     width: 120px;
   }
 
-  .extra-info-sti {
+  .extra-info {
     font-size: var(--size-mid);
   }
 

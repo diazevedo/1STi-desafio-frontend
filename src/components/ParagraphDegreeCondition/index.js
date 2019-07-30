@@ -3,7 +3,7 @@ import './styles.css'
 
 
 const ParagraphDegreeCondition = ({degree, children}) => (
-  <div className="icon-degree-sti">
+  <div className="icon-degree">
     { children }
     <p>{ degree }</p>
   </div>

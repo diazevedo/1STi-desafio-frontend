@@ -1,12 +1,12 @@
-.table-sti {
+.table {
   line-height: 43px;
 }
 
-.table-sti td {
+.table td {
   padding-right: var(--spacing-small);
 }
 
-.table-sti .thead-sti {
+.table .thead {
   font-weight: 100;
   font-size: var(--size-smallest);
   color: var(--color-fourth);
@@ -14,14 +14,14 @@
   line-height: 20px;
 }
 
-.table-sti .tbody-tsi {
+.table .tbody-tsi {
   font-size: var(--size-small); 
   font-weight: 700;
 }
 
 @media (min-width: 600px) {
   
-  .table-sti  {
+  .table  {
     display: inline-block;
     width: 220px;
     text-align: left;

@@ -1,21 +1,21 @@
-.input-text-sti {
+.input-text {
   font-size: var(--size-small);
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
   color: var(--color-third);
 }
 
-.input-text-sti::placeholder {
+.input-text::placeholder {
   color: inherit;
 }
 
-.input-text-sti:focus {
+.input-text:focus {
   outline: none;
 }
 
 @media (min-width: 600px){
   
-  .input-text-sti {
+  .input-text {
     font-size: var(--size-big);
   }
   

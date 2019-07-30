@@ -1,4 +1,4 @@
-.section-cities-sti {
+.section-cities {
   width: 100%;
   border-top: var(--color-first) 1px solid;
   margin-top: var(--spacing-input-top-bottom);
@@ -7,21 +7,21 @@
   box-sizing: border-box;
 }
 
-.section-cities-sti.-smaller {
+.section-cities.-smaller {
   margin-top: var(--spacing-small);
 }
 
-.section-cities-sti .wrapper-tables {
+.section-cities .wrapper-tables {
   margin-top: var(--spacing-smaller);
 }
 
-.section-cities-sti table:last-child thead{
+.section-cities table:last-child thead{
   display: none;
 }
 
 @media (min-width: 500px) {
   
-  .section-cities-sti.-smaller {
+  .section-cities.-smaller {
     margin: 0 auto;
     padding-left: 80px;
     margin-top: var(--spacing-small);
@@ -31,28 +31,28 @@
 
 @media (min-width: 600px) {
 
-  .section-cities-sti {
+  .section-cities {
     width: 590px;
     margin: 0 auto;
     padding-left: 0;
     margin-top: var(--spacing-input-top-bottom);
   }
 
-  .section-cities-sti.-smaller {
+  .section-cities.-smaller {
     margin-top: var(--spacing-bigger);
   }
 
-  .section-cities-sti.-smaller {
+  .section-cities.-smaller {
     padding-left: 0px;
   }
 
-  .section-cities-sti .subtitle-sti {
+  .section-cities .subtitle {
     width: 420px;
     text-align: left;
     margin: 0 auto;
   }
 
-  .section-cities-sti .wrapper-tables {
+  .section-cities .wrapper-tables {
     width: 460px;
     margin-left: 90px;
     margin-top: var(--spacing-mid-big);
@@ -60,7 +60,7 @@
     justify-content: space-between;
   }
   
-  .section-cities-sti table:last-child thead{
+  .section-cities table:last-child thead{
     display: table-header-group;
   }
   

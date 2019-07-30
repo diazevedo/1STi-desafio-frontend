@@ -15,7 +15,7 @@ const SectionCityWeather = ({ handleClick, currentWeather }) => {
 
     return(
 
-      <article className="article-weather-sti">
+      <article className="article-weather">
         
         <HeaderCurrentWeather 
           handleClick={handleClick}
