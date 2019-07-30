@@ -6,6 +6,7 @@ import SectionCityWeather from "../SectionCityWeather"
 
 const { api } = require ("../../helpers/apiCall")
 const { conditions } = require ("../../helpers/conditions")
+const { cityObject } = require ("../../helpers/cityObject")
 
 const App = () => {
 
@@ -23,25 +24,9 @@ const App = () => {
       null,
       null,
       function (err, data, result) {
-        
-        let forData = JSON.parse(data);
-        
-        let cityForescast = {
-         
-          name: `${forData.location.city}, ${forData.location.region} - ${forData.location.country}`,
-          currentCondition: {
-            degrees: `${forData.current_observation.condition.temperature}°C`,
-            condition: conditions(forData.current_observation.condition.code),
-            min: `${forData.forecasts[0].low}°`,
-            max: `${forData.forecasts[0].high}°`,
-            wind: `${forData.current_observation.wind.speed.toFixed(0)}km/h`,
-            feelsLike: Math.floor((forData.current_observation.wind.chill -32) * 5 / 9) + 'º',
-            humidity: `${forData.current_observation.atmosphere.humidity}%`,
-          },
-          forecast: forData.forecasts.slice(1, 5)
-        }
-
-        setCityCurrentWeather(cityForescast);
+        let forescast = cityObject(JSON.parse(data));
+        forescast.currentCondition.condition = conditions(forescast.currentCondition.condition);
+        setCityCurrentWeather(forescast);
       }
     )
   }
