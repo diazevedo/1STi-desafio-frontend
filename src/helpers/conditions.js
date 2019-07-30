@@ -29,8 +29,6 @@ function getCondition(id) {
     25: "frio",
     26: "nublado",
     27: "nublado",
-    27: "nublado",
-    28: "nublado",
     28: "nublado",
     29: "parcialmente nublado",
     30: "parcialmente nublado",

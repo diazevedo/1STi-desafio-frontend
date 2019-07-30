@@ -16,7 +16,7 @@ const App = () => {
     
     event.preventDefault();
 
-    if(citySearchedName.length == 0)
+    if(citySearchedName.length === 0)
       return;
 
     api.get(
