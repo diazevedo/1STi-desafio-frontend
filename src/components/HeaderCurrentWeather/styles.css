@@ -5,7 +5,7 @@
 }
 
 .title-current-weather {
-  font-size: 16px;
+  font-size: var(--size-small);
   font-weight: 700;
 }
 
@@ -15,5 +15,5 @@
 }
 
 .button-close-sti > svg {
-  color: #ff7e00;
+  color: var(--color-second);
 }

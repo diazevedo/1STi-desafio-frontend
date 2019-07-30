@@ -1,6 +1,6 @@
 .next-days {
   height: 90px;
-  border-top:#ff7e00 1px solid;
+  border-top: var(--color-second) 1px solid;
   justify-content: space-around;
   align-items: center;
   display: flex;
@@ -9,13 +9,13 @@
 }
 
 .next-day {
-  font-size: 16px;
+  font-size: var(--size-small);
   font-weight: 600;
   line-height: 30px;
 }
 
 .next-day p {
-  color: #ff7e00;
+  color: var(--color-second);
 }
 
 .last {
@@ -29,13 +29,16 @@
     height: 80px;
     margin: 0 auto;
   }
+
   .next-day {
-    font-size: 18px;
+    font-size: var(--size-mid);
   }
 }
 
 @media (max-width: 260px) {
+  
   .next-days {
     display: none;
   }
+  
 }

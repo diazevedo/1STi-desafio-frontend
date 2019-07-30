@@ -1,5 +1,5 @@
 .button-submit-sti {
-  color: #4c4b4b;
+  color: var(--color-third);
   border: none;
   background: none;
 }

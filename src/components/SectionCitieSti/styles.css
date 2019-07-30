@@ -8,11 +8,11 @@
 }
 
 .section-cities-sti.-smaller {
-  margin-top: 15px;
+  margin-top: var(--spacing-small);
 }
 
-.section-cities-sti > div {
-  margin-top: 10px;
+.section-cities-sti .wrapper-tables {
+  margin-top: var(--spacing-smaller);
 }
 
 .section-cities-sti table:last-child thead{
@@ -24,7 +24,7 @@
   .section-cities-sti.-smaller {
     margin: 0 auto;
     padding-left: 80px;
-    margin-top: 15px;
+    margin-top: var(--spacing-small);
   }
 
 }
@@ -39,7 +39,7 @@
   }
 
   .section-cities-sti.-smaller {
-    margin-top: 35px;
+    margin-top: var(--spacing-bigger);
   }
 
   .section-cities-sti.-smaller {
@@ -52,9 +52,10 @@
     margin: 0 auto;
   }
 
-  .section-cities-sti > div {
+  .section-cities-sti .wrapper-tables {
     width: 460px;
     margin-left: 90px;
+    margin-top: var(--spacing-mid-big);
     display: flex;
     justify-content: space-between;
   }

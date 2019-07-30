@@ -2,9 +2,9 @@ import React from "react"
 import { MdSearch } from 'react-icons/md'
 import './styles.css'
 
-const ButtonSubmitSti = ({ size, nameClass = "search-icon-sti" }) => (
+const ButtonSubmitSti = ({ size, nameClass }) => (
   <button type="submit" className="button-submit-sti">
-    <MdSearch size={34} className={nameClass}/>
+    <MdSearch size={size} className={nameClass}/>
   </button>
 )
 

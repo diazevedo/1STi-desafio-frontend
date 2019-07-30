@@ -6,9 +6,3 @@ html, body {
   background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
 }
-
-/* this root cannot be here, it has to be in the index.css of the /components/index.js */
-/*#root {
-  height: 100vh;
-  
-}*/

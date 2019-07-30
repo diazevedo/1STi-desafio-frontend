@@ -3,11 +3,13 @@
   align-items: center;
 }
 .icon-degree-sti svg {
-  color: #ff7e00;
+  color: var(--color-second);
 }
 
 @media (min-width: 500px) {
+  
   .icon-degree-sti > p {
-    font-size: 18px;
+    font-size: var(--size-mid);
   }
+
 }

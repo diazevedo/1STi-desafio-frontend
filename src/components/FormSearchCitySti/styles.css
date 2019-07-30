@@ -4,8 +4,8 @@
 }
 
 .form-city-sti.-smaller {
-  margin-top: var(--spacing-input-sides);
-  margin-bottom: var(--spacing-input-sides);
+  margin-top: var(--spacing-small);
+  margin-bottom: var(--spacing-small);
 }
 
 .form-city-sti .container-input {
@@ -16,7 +16,7 @@
   text-align: justify;
   position: relative;
   box-sizing: border-box;
-  border: #e07a06 1px solid;
+  border: var(--color-second) 1px solid;
 }
 
 .form-city-sti .container-input .input-text-sti {
@@ -34,7 +34,7 @@
   height: 100%;
   position: absolute;
   right: 18px;
-  color: #535353;
+  color: var(--color-third);
 }
 
 @media (min-width: 500px) {

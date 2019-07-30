@@ -1,8 +1,8 @@
 .input-text-sti {
-  font-size: 16px;
+  font-size: var(--size-small);
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
-  color: #535353;
+  color: var(--color-third);
 }
 
 .input-text-sti::placeholder {
@@ -16,7 +16,7 @@
 @media (min-width: 600px){
   
   .input-text-sti {
-    font-size: 24px;
+    font-size: var(--size-big);
   }
   
 }

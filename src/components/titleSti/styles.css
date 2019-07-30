@@ -1,5 +1,5 @@
 .title-sti {
-  font-size: 48px;
+  font-size: var(--size-bigger);
   color: var(--color-first);
   line-height: 66px;
   letter-spacing: 0.02em;
@@ -8,8 +8,8 @@
 }
 
 .title-sti.-smaller {
-  font-size: 24px;
-  padding-left: 30px;
+  font-size: var(--size-big);
+  padding-left: var(--spacing-big);
 }
 
 @media (min-width: 500px) {

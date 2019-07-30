@@ -15,7 +15,7 @@
 }
 
 .extra-info-sti {
-  font-size: 16px;
+  font-size: var(--size-small);
   font-weight: 300;
 }
 
@@ -36,7 +36,7 @@
   }
 
   .extra-info-sti {
-    font-size: 18px;
+    font-size: var(--size-mid);
   }
 
 }

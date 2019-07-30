@@ -35,7 +35,7 @@ const SectionCitiesSti = ({classModifier}) => {
   return (
     <section className={`section-cities-sti ${classModifier}`}>
       <SubtitleSti />
-      <div>
+      <div className="wrapper-tables">
         <TableCitiesSti cities={citiesData.slice(0,5)} />
 
         <TableCitiesSti cities={citiesData.slice(5,10)} />

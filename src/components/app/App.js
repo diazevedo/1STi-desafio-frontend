@@ -23,6 +23,7 @@ const App = () => {
       null,
       null,
       function (err, data, result) {
+        
         let forData = JSON.parse(data);
         
         let cityForescast = {
@@ -63,7 +64,7 @@ const App = () => {
         handleClick={handleClickSearch}
         classModifier={`${Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""}`}  
       />
-      
+
       <SectionCitieSti classModifier={`${Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""}`}/>
     </>
   )

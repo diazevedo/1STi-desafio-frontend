@@ -1,9 +1,9 @@
 :root {
-  --size-smallest: 14px;
+  --size-smallest: 12px;
   --size-small: 16px;
-  --size-mid: 20px;
-  --size-mid-big: 25px;
-  --size-big: 30px;
-  --size-bigger: 34px;
-  --size-biggest: 65px;
+  --size-mid: 18px;
+  --size-mid-big: 20px;
+  --size-big: 24px;
+  --size-bigger: 48px;
+  --size-biggest: 70px;
 }

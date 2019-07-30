@@ -1,10 +1,10 @@
 .article-weather-sti {
   height: 290px;
   width: 100vw;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: var(--spacing-smallest);
+  padding-bottom: var(--spacing-smallest);
   box-sizing: border-box;
-  color: #545050;
+  color: var(--color-third);
   text-transform: capitalize;
   background: #fff4e4;
   box-shadow: 5px 0 5px #735022;
@@ -12,7 +12,7 @@
 
 .article-weather-sti .header-current-weather {
   width: inherit;
-  margin-top: 5px;
+  margin-top: var(--spacing-smallest);
 }
 
 .article-weather-sti .title-current-weather {
@@ -28,7 +28,7 @@
 }
 
 .article-weather-sti .next-days {
-  margin-top: 15px;
+  margin-top: var(--spacing-small);
 }
 
 @media (min-width: 500px) {
@@ -37,7 +37,7 @@
     height: 304px;
     width: 500px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: var(--spacing-big);
   }
 
   .article-weather-sti .header-current-weather {
@@ -47,12 +47,11 @@
 
   .article-weather-sti .wather-degree-condition {
     height: 130px;
-    margin-top: 10px;
+    margin-top:var(--spacing-smaller);
   }
 
   .article-weather-sti .next-days {
     margin-top: 24px;
   }
-
 
 }

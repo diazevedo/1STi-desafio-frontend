@@ -12,11 +12,13 @@
 }
 
 .wather-degree-condition .weather-extra-info {
-  margin-top: 10px;
+  margin-top: var(--spacing-smaller);
 }
 
 @media (min-width: 500px) {
+  
   .wather-degree-condition .weather-extra-info {
-    margin-top: 15px;
+    margin-top: var(--spacing-small);
   }
+
 }
