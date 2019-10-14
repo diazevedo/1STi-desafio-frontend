@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/forecast/static/css/main.4e4fbf93.chunk.css",
+    "main.js": "/forecast/static/js/main.b0e95f38.chunk.js",
+    "main.js.map": "/forecast/static/js/main.b0e95f38.chunk.js.map",
+    "runtime~main.js": "/forecast/static/js/runtime~main.1c70b54c.js",
+    "runtime~main.js.map": "/forecast/static/js/runtime~main.1c70b54c.js.map",
+    "static/js/2.c78e47bb.chunk.js": "/forecast/static/js/2.c78e47bb.chunk.js",
+    "static/js/2.c78e47bb.chunk.js.map": "/forecast/static/js/2.c78e47bb.chunk.js.map",
+    "index.html": "/forecast/index.html",
+    "precache-manifest.0dec1fef0963e3fbd3bed9d0bfdc2bb5.js": "/forecast/precache-manifest.0dec1fef0963e3fbd3bed9d0bfdc2bb5.js",
+    "service-worker.js": "/forecast/service-worker.js",
+    "static/css/main.4e4fbf93.chunk.css.map": "/forecast/static/css/main.4e4fbf93.chunk.css.map"
+  }
+}
