@@ -16,7 +16,7 @@ const SectionCities = ({classModifier}) => {
     const ApiKey = `d6cfde10e216a6f677b7324f015fa9c7`;
     const lang = `pt`;
     const idCollections = idCities.map(({id}) => id);
-    const urlGroupOfCities = `http://api.openweathermap.org/data/2.5/group?id=${idCollections.join()}&appid=${ApiKey}&units=metric&lang=${lang}}`
+    const urlGroupOfCities = `https://api.openweathermap.org/data/2.5/group?id=${idCollections.join()}&appid=${ApiKey}&units=metric&lang=${lang}}`
 
     axios.get(urlGroupOfCities)
       .then( res => {
