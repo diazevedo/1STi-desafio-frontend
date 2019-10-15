@@ -1,5 +1,5 @@
 .article-weather {
-  height: 290px;
+  height: auto;
   width: 100vw;
   padding-top: var(--spacing-smallest);
   padding-bottom: var(--spacing-smallest);
@@ -32,7 +32,6 @@
 }
 
 @media (min-width: 500px) {
-  
   .article-weather {
     height: 304px;
     width: 500px;
@@ -46,12 +45,11 @@
   }
 
   .article-weather .wather-degree-condition {
-    height: 130px;
-    margin-top:var(--spacing-smaller);
+    /* height: 130px; */
+    margin-top: var(--spacing-smaller);
   }
 
   .article-weather .next-days {
     margin-top: 24px;
   }
-
 }

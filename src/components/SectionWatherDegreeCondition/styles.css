@@ -2,21 +2,62 @@
   width: 80%;
   text-align: left;
   margin: 0 auto;
-  padding-left: 0.5em;
-}
-
-.wather-degree-condition .grid-two-columns {
+  align-items: center;
+  height: auto;
   display: grid;
-  grid-template-columns: max-content max-content;
   grid-column-gap: 5%;
+  grid-row-gap: 20px;
+  grid-template-columns: 50px 50px 10px auto;
+  grid-template-rows: minmax(max-content, 10px) 20px 20px;
+  grid-template-areas:
+    "degree . condition condition"
+    "minmax minmax . feels"
+    "wind wind . humidity";
 }
 
-.wather-degree-condition .weather-extra-info {
-  margin-top: var(--spacing-smaller);
+.wather-degree-condition .today-weather {
+  grid-area: degree;
 }
 
-@media (min-width: 500px) {
+.wather-degree-condition .today-weather.-condition {
+  grid-area: condition;
+}
+
+.wrapper-min-max {
+  display: flex;
+  justify-content: space-between;
+  grid-area: minmax;
+  margin-left: -5px;
+}
+
+.wather-degree-condition .bold {
+  font-weight: 600;
+  text-transform: initial;
+}
+
+.wather-degree-condition .feels-like {
+  grid-area: feels;
+}
+
+.wather-degree-condition .wind {
+  grid-area: wind;
+  margin-left: 5px;
+}
+
+.wather-degree-condition .humidity {
+  grid-area: humidity;
+}
+/*
+.wather-degree-condition .weather-extra-info .wind {
+  grid-area: wind;
+}
+
+.wather-degree-condition .weather-extra-info .humidity {
+  grid-area: humidity;
+} */
+
+/* @media (min-width: 500px) {
   .wather-degree-condition .weather-extra-info {
     margin-top: var(--spacing-small);
   }
-}
+} */

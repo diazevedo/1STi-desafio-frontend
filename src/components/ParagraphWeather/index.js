@@ -1,8 +1,8 @@
-import React from 'react'
-import "./styles.css"
+import React from "react";
+import "./styles.css";
 
-const ParagraphWeather = ({children}) => (
-  <p className="today-weather">{ children }</p>
-)
+const ParagraphWeather = ({ children, modifierClass = "" }) => (
+  <p className={`today-weather ${modifierClass}`}>{children}</p>
+);
 
-export default ParagraphWeather
+export default ParagraphWeather;

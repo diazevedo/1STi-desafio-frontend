@@ -1,12 +1,3 @@
-.weather-extra-info {
-  display: grid;
-  grid-template-columns: max-content max-content;
-  grid-template-rows: 40px;
-  column-gap: 5%;
-  row-gap: 10px;
-  align-items: center;
-}
-
 .wrapper-degree-condition-flex {
   width: 110px;
   display: flex;
@@ -25,10 +16,8 @@
 }
 
 @media (min-width: 500px) {
-
   .weather-extra-info {
     height: 80px;
-
   }
 
   .wrapper-degree-condition-flex {
@@ -38,5 +27,4 @@
   .extra-info {
     font-size: var(--size-mid);
   }
-
 }

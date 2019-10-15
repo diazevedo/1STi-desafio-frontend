@@ -1,26 +1,22 @@
-import React from 'react'
-import { MdArrowDownward, MdArrowUpward } from 'react-icons/md'
-import ParagraphDegreeCondition from '../ParagraphDegreeCondition'
+import React from "react";
 
-import './styles.css'
+import "./styles.css";
 
-const WeatherExtraInfo = ({min, max, feelsLike, wind, humidity}) => (
-  <div className="weather-extra-info">
-      
-      <div className="wrapper-degree-condition-flex">
-        <ParagraphDegreeCondition degree={min}>
-          <MdArrowDownward size={26}/>
-        </ParagraphDegreeCondition>
-        <ParagraphDegreeCondition degree={max}>
-          <MdArrowUpward size={26}/>
-        </ParagraphDegreeCondition>
-      </div>
+const WeatherExtraInfo = ({ min, max, feelsLike, wind, humidity }) => (
+  <>
+    <div className="weather-extra-info">
+      <div className="wrapper-degree-condition-flex"></div>
+      <p className="extra-info feels-like">
+        Sensação <span className="bold">{feelsLike}</span>
+      </p>
+      <p className="extra-info wind">
+        Vento <span className="bold">{wind}</span>
+      </p>
+      <p className="extra-info humidity">
+        humidade <span className="bold">{humidity}</span>
+      </p>
+    </div>
+  </>
+);
 
-      <p className="extra-info">Sensação <span className="bold">{feelsLike}</span></p>
-      <p className="extra-info">Vento <span className="bold">{wind}</span></p>
-      <p className="extra-info">humidade <span className="bold">{humidity}</span></p>
-      
-  </div>
-)
-
-export default WeatherExtraInfo
+export default WeatherExtraInfo;
