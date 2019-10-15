@@ -2,14 +2,13 @@
   display: flex;
   align-items: center;
 }
+
 .icon-degree svg {
   color: var(--color-second);
 }
 
 @media (min-width: 500px) {
-  
   .icon-degree > p {
     font-size: var(--size-mid);
   }
-
 }
