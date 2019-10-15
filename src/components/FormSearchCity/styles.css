@@ -26,33 +26,35 @@
   border: 0;
   padding: 0 22px;
   box-sizing: border-box;
-  font-weight: 200; 
+  font-weight: 200;
 }
 
 .form-city .button-submit {
-  width: 10%;
+  width: auto;
   height: 100%;
   position: absolute;
-  right: 18px;
+  right: 0px;
+  overflow: visible;
   color: var(--color-third);
 }
 
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
 @media (min-width: 500px) {
-  
   .form-city .container-input {
     width: 500px;
   }
 }
 
 @media (min-width: 600px) {
-  
   .form-city {
     margin-top: 66px;
     height: 60px;
   }
-  
+
   .form-city .button-submit {
     right: 5px;
   }
-
 }
