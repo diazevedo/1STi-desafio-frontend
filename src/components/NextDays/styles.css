@@ -18,8 +18,8 @@
   color: var(--color-second);
 }
 
-.last {
-  text-align: left;
+.next-day:last-child {
+  display: none;
 }
 
 @media (min-width: 500px) {
@@ -31,6 +31,10 @@
 
   .next-day {
     font-size: var(--size-mid);
+  }
+
+  .next-day:last-child {
+    display: block;
   }
 }
 

@@ -1,6 +1,5 @@
 import React from "react";
 import ParagraphWeather from "../ParagraphWeather";
-import WeatherExtraInfo from "../WeatherExtraInfo";
 import { MdArrowDownward, MdArrowUpward } from "react-icons/md";
 import ParagraphDegreeCondition from "../ParagraphDegreeCondition";
 import "./styles.css";

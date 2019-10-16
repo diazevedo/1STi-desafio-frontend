@@ -1,14 +1,14 @@
 .article-weather {
   width: 100vw;
-  min-width: 400px;
-  max-width: 600px;
   padding-top: var(--spacing-smallest);
   padding-bottom: var(--spacing-smallest);
   box-sizing: border-box;
   color: var(--color-third);
   text-transform: capitalize;
   background: #fff4e4;
-  box-shadow: 5px 0 5px #735022;
+  /* box-shadow: 5px 0 5px #735022; */
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.2),
+    inset 0px 5px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .article-weather .header-current-weather {
@@ -38,6 +38,7 @@
     max-width: min-content;
     margin: 0 auto;
     margin-top: var(--spacing-big);
+    box-shadow: 5px 0 5px #735022;
   }
 
   .article-weather .header-current-weather {
