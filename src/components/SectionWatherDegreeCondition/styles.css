@@ -1,18 +1,17 @@
 .wather-degree-condition {
   width: 80%;
-  text-align: left;
   margin: 0 auto;
   align-items: center;
   height: auto;
   display: grid;
-  grid-column-gap: 5%;
+  grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template-columns: 50px 50px 10px auto;
-  grid-template-rows: minmax(max-content, 10px) 20px 20px;
+  grid-template-columns: 120px auto;
+  grid-template-rows: minmax(max-content, 40px) 20px 20px;
   grid-template-areas:
-    "degree . condition condition"
-    "minmax minmax . feels"
-    "wind wind . humidity";
+    "degree degree "
+    "minmax feels"
+    "wind humidity";
 }
 
 .wather-degree-condition .today-weather {
@@ -27,11 +26,12 @@
   display: flex;
   justify-content: space-between;
   grid-area: minmax;
-  margin-left: -5px;
+  word-spacing: 10px;
+  width: 100px;
 }
 
 .wather-degree-condition .bold {
-  font-weight: 600;
+  font-weight: 900;
   text-transform: initial;
 }
 
@@ -47,17 +47,3 @@
 .wather-degree-condition .humidity {
   grid-area: humidity;
 }
-/*
-.wather-degree-condition .weather-extra-info .wind {
-  grid-area: wind;
-}
-
-.wather-degree-condition .weather-extra-info .humidity {
-  grid-area: humidity;
-} */
-
-/* @media (min-width: 500px) {
-  .wather-degree-condition .weather-extra-info {
-    margin-top: var(--spacing-small);
-  }
-} */

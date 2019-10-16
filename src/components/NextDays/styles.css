@@ -10,7 +10,7 @@
 
 .next-day {
   font-size: var(--size-small);
-  font-weight: 600;
+  font-weight: 900;
   line-height: 30px;
 }
 
@@ -23,7 +23,6 @@
 }
 
 @media (min-width: 500px) {
-  
   .next-days {
     width: 90%;
     height: 80px;
@@ -36,9 +35,7 @@
 }
 
 @media (max-width: 260px) {
-  
   .next-days {
     display: none;
   }
-  
 }

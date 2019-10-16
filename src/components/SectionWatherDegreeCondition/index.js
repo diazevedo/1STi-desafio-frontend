@@ -15,8 +15,9 @@ const SectionWatherDegreeCondition = ({
   humidity
 }) => (
   <section className="wather-degree-condition">
-    <ParagraphWeather>{degrees}</ParagraphWeather>
-    <ParagraphWeather modifierClass="-condition">{condition}</ParagraphWeather>
+    <ParagraphWeather>
+      {degrees} {condition}
+    </ParagraphWeather>
 
     <div className="wrapper-min-max">
       <ParagraphDegreeCondition degree={min} modifierClass="-min">

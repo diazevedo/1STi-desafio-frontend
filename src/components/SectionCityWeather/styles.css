@@ -1,6 +1,7 @@
 .article-weather {
-  height: auto;
   width: 100vw;
+  min-width: 400px;
+  max-width: 600px;
   padding-top: var(--spacing-smallest);
   padding-bottom: var(--spacing-smallest);
   box-sizing: border-box;
@@ -11,7 +12,7 @@
 }
 
 .article-weather .header-current-weather {
-  width: inherit;
+  width: 100%;
   margin-top: var(--spacing-smallest);
 }
 
@@ -33,8 +34,8 @@
 
 @media (min-width: 500px) {
   .article-weather {
-    height: 304px;
-    width: 500px;
+    min-width: 500px;
+    max-width: min-content;
     margin: 0 auto;
     margin-top: var(--spacing-big);
   }
@@ -45,7 +46,6 @@
   }
 
   .article-weather .wather-degree-condition {
-    /* height: 130px; */
     margin-top: var(--spacing-smaller);
   }
 

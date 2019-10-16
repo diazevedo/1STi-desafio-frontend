@@ -1,11 +1,13 @@
 .today-weather {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 700;
-  display: inline-block;
+  line-height: 45px;
+  word-spacing: 20px;
 }
 
 @media (min-width: 500px) {
   .today-weather {
-    font-size: var(--size-bigger);
+    word-spacing: 10px;
+    font-size: 40px;
   }
 }
