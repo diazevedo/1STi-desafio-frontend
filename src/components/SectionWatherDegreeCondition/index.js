@@ -38,14 +38,6 @@ const SectionWatherDegreeCondition = ({
     <p className="humidity">
       humidade <span className="bold">{humidity}</span>
     </p>
-
-    {/* <WeatherExtraInfo
-      min={min}
-      max={max}
-      feelsLike={feelsLike}
-      wind={wind}
-      humidity={humidity}
-    /> */}
   </section>
 );
 

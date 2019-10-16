@@ -14,7 +14,6 @@
 
 @media (min-width: 500px) {
   .icon-degree > p {
-    font-size: var(--size-mid);
     font-size: 16px;
   }
 }
