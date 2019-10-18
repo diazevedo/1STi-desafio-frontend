@@ -5,6 +5,7 @@
   letter-spacing: 0.02em;
   font-weight: 600;
   box-sizing: border-box;
+  transition: all 0.18s linear;
 }
 
 .title.-smaller {
@@ -13,18 +14,13 @@
 }
 
 @media (min-width: 500px) {
-
   .title {
     font-size: 56px;
   }
-
 }
 
-
 @media (min-width: 600px) {
-
   .title {
     font-size: 60px;
   }
-
 }
