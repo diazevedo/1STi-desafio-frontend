@@ -5,7 +5,7 @@
   letter-spacing: 0.02em;
   font-weight: 600;
   box-sizing: border-box;
-  transition: all 0.18s linear;
+  transition: all 0.25s linear;
 }
 
 .title.-smaller {
