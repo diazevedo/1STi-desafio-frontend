@@ -10,6 +10,7 @@
 
 .form-city .container-input {
   width: 90%;
+  min-width: 300px;
   height: inherit;
   background-color: var(--color-first);
   margin: 0 auto;

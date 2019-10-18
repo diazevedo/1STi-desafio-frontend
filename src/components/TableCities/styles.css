@@ -1,18 +1,18 @@
-.table.-loading {
+.table-weather-cities.-loading {
   opacity: 0;
 }
 
-.table {
+.table-weather-cities {
   opacity: 1;
   transition: all 1.5s ease-out;
   line-height: 43px;
 }
 
-.table td {
+.table-weather-cities td {
   padding-right: var(--spacing-small);
 }
 
-.table .thead {
+.table-weather-cities .thead {
   font-weight: 100;
   font-size: var(--size-smallest);
   color: var(--color-fourth);
@@ -20,17 +20,17 @@
   line-height: 20px;
 }
 
-.table .thead th {
+.table-weather-cities .thead th {
   padding-right: 15px;
 }
 
-.table .tbody-tsi {
+.table-weather-cities .tbody-tsi {
   font-size: var(--size-small);
   font-weight: 700;
 }
 
-@media (min-width: 600px) {
-  .table {
+@media (min-width: 500px) {
+  .table-weather-cities {
     display: inline-block;
     width: 220px;
     text-align: left;

@@ -3,7 +3,7 @@ import "./styles.css";
 
 const TableCities = ({ cities, classMod }) => {
   return (
-    <table className={`table ${classMod}`}>
+    <table className={`table-weather-cities ${classMod}`}>
       <thead className={`thead`}>
         <tr>
           <th>Min</th>

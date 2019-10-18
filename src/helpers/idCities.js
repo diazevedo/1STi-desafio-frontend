@@ -12,7 +12,6 @@ const idCities = [
     country: "BR",
     min: "14°",
     max: "22°"
-    
   },
   {
     id: 3405814,
@@ -20,21 +19,20 @@ const idCities = [
     country: "BR",
     min: "21°",
     max: "32°"
-    
   },
   {
     id: 3410315,
     name: "Brasília",
     country: "BR",
     min: "24°",
-    max: "37°" 
+    max: "37°"
   },
   {
     id: 3470154,
     name: "Belém",
     country: "BR",
     min: "24°",
-    max: "37°" 
+    max: "37°"
   },
   {
     id: 6321026,
@@ -48,14 +46,14 @@ const idCities = [
     name: "Curitiba",
     country: "BR",
     min: "5°",
-    max: "14°" 
+    max: "14°"
   },
   {
     id: 3399415,
     name: "Fortaleza",
     country: "BR",
     min: "21°",
-    max: "32°" 
+    max: "32°"
   },
   {
     id: 3663517,
@@ -66,11 +64,11 @@ const idCities = [
   },
   {
     id: 3397277,
-    name: "Joao Pessoa",
+    name: "João Pessoa",
     country: "BR",
     min: "28°",
     max: "40°"
   }
-]
+];
 
 export { idCities };

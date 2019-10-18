@@ -4,6 +4,7 @@
   margin-top: var(--spacing-input-top-bottom);
   padding-left: var(--spacing-title-home);
   padding-top: var(--spacing-mid-big);
+  padding-bottom: var(--spacing-mid);
   box-sizing: border-box;
 }
 
@@ -15,22 +16,19 @@
   margin-top: var(--spacing-smaller);
 }
 
-.section-cities table:last-child thead{
+.section-cities .table-weather-cities:last-child thead {
   display: none;
 }
 
 @media (min-width: 500px) {
-  
   .section-cities.-smaller {
     margin: 0 auto;
     padding-left: 80px;
     margin-top: var(--spacing-small);
   }
-
 }
 
 @media (min-width: 600px) {
-
   .section-cities {
     width: 590px;
     margin: 0 auto;
@@ -40,9 +38,6 @@
 
   .section-cities.-smaller {
     margin-top: var(--spacing-bigger);
-  }
-
-  .section-cities.-smaller {
     padding-left: 0px;
   }
 
@@ -59,9 +54,8 @@
     display: flex;
     justify-content: space-between;
   }
-  
-  .section-cities table:last-child thead{
+
+  .section-cities .table-weather-cities:last-child thead {
     display: table-header-group;
   }
-  
 }
