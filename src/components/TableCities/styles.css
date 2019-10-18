@@ -1,4 +1,10 @@
+.table.-loading {
+  opacity: 0;
+}
+
 .table {
+  opacity: 1;
+  transition: all 1.5s ease-out;
   line-height: 43px;
 }
 
@@ -14,17 +20,19 @@
   line-height: 20px;
 }
 
+.table .thead th {
+  padding-right: 15px;
+}
+
 .table .tbody-tsi {
-  font-size: var(--size-small); 
+  font-size: var(--size-small);
   font-weight: 700;
 }
 
 @media (min-width: 600px) {
-  
-  .table  {
+  .table {
     display: inline-block;
     width: 220px;
     text-align: left;
   }
-  
 }

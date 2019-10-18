@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../Header";
 import FormSearchCity from "../FormSearchCity";
-import SectionCitie from "../SectionCities";
+import SectionCities from "../SectionCities";
 import SectionCityWeather from "../SectionCityWeather";
 
 const { api } = require("../../helpers/apiCall");
@@ -10,18 +10,25 @@ const { cityObject } = require("../../helpers/cityObject");
 
 const App = () => {
   const [cityCurrentWeather, setCityCurrentWeather] = useState({});
+  const [searchingCity, setSearchingCity] = useState(false);
 
   const handleClickSearch = (event, citySearchedName) => {
     event.preventDefault();
 
-    if (citySearchedName.length === 0) return;
+    setSearchingCity(true);
+
+    if (citySearchedName.length === 0) {
+      setSearchingCity(false);
+      return;
+    }
 
     api.get(
       `https://weather-ydn-yql.media.yahoo.com/forecastrss?location=${citySearchedName}&format=json&u=c`,
       null,
       null,
-      function(err, data, result) {
+      async (err, data, result) => {
         const response = JSON.parse(data);
+
         if (Object.entries(response.location).length > 0) {
           let forescast = cityObject(response);
 
@@ -30,6 +37,7 @@ const App = () => {
           );
 
           setCityCurrentWeather(forescast);
+          setSearchingCity(false);
         }
       }
     );
@@ -58,9 +66,10 @@ const App = () => {
         classModifier={`${
           Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""
         }`}
+        buttonMod={`${searchingCity ? "-disabled" : ""}`}
       />
 
-      <SectionCitie
+      <SectionCities
         classModifier={`${
           Object.keys(cityCurrentWeather).length > 0 ? "-smaller" : ""
         }`}

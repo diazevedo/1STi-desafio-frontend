@@ -6,7 +6,6 @@ import SectionWatherDegreeCondition from "../SectionWatherDegreeCondition";
 import "./styles.css";
 
 const SectionCityWeather = ({ handleClick, currentWeather }) => {
-  console.log(currentWeather);
   if (Object.keys(currentWeather).length === 0) return "";
 
   const { currentCondition } = currentWeather;

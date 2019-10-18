@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles.css";
 
-const TableCities = ({ cities }) => {
+const TableCities = ({ cities, classMod }) => {
   return (
-    <table className="table">
-      <thead className="thead">
+    <table className={`table ${classMod}`}>
+      <thead className={`thead`}>
         <tr>
           <th>Min</th>
           <th>Máx</th>

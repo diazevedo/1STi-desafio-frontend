@@ -6,7 +6,6 @@
   color: var(--color-third);
   text-transform: capitalize;
   background: #fff4e4;
-  /* box-shadow: 5px 0 5px #735022; */
   box-shadow: 0px 5px 4px 1px rgba(0, 0, 0, 0.2),
     inset 0px 5px 5px 1px rgba(0, 0, 0, 0.2);
 }
